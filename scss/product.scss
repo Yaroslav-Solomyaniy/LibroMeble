@@ -1,0 +1,88 @@
+@import "variables.scss";
+
+.title__grids {
+  margin-top: 220px;
+  color: $colorRed;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 300;
+  margin-left: 100px;
+}
+
+.grids {
+  padding-right: 20px;
+}
+
+.grids__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid__item {
+  position: relative;
+  transition: all 0.4s linear;
+
+  &:hover {
+    transition: transform 0.4s linear;
+    transform: scale(1.05);
+  }
+
+  &:hover .grid__item_text {
+    transition: transform 0.4s linear;
+    transform: scale(1);
+  }
+}
+
+.grid__item_img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid__item_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.grid__item_text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 60%;
+  padding: 10% 10%;
+  z-index: 2;
+
+  color: $colorRed;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.6);
+
+  transform: scale(0);
+  transition: all 0.4s linear;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:1700px) and (min-width:1400px) {
+  .grids__inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width:1399px) and (min-width:991px) {
+  .grids__inner {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width:991px) {
+  .grids__inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

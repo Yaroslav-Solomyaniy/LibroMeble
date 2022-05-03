@@ -1,0 +1,410 @@
+/* line 4, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header {
+  width: 90%;
+  height: 140px;
+  padding: 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  z-index: 270;
+  background: #fff;
+}
+
+/* line 20, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll {
+  height: 100px;
+}
+
+/* line 23, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll .nav__info_top {
+  padding-bottom: 10px;
+}
+
+/* line 27, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll .header__img_logo {
+  width: 120px;
+  height: 120px;
+}
+
+/* line 32, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll .nav__link {
+  padding: 40px 35px;
+  font-size: 18px;
+  line-height: 100px;
+}
+
+/* line 38, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll .navHover {
+  top: 100px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+}
+
+/* line 44, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__scroll .form__input {
+  height: 45px;
+}
+
+/* line 49, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__img {
+  width: 40%;
+  height: 140px;
+}
+
+/* line 54, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__nav {
+  width: 60%;
+  height: 140px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* line 62, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__nav_link {
+  width: 70%;
+  margin-right: 25px;
+}
+
+/* line 67, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__link {
+  padding: 58px 35px;
+  color: black;
+  font-size: 22px;
+  line-height: 140px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+
+/* line 76, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__link:hover {
+  cursor: pointer;
+  background: #a4acb0;
+  color: #fff;
+}
+
+/* line 83, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.main_hover:hover .navHover {
+  display: block;
+}
+
+/* line 87, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.header__nav_info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+/* line 94, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__info_top {
+  padding-bottom: 30px;
+  display: flex;
+}
+
+/* line 98, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__info_top .info_top_link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.6s;
+  margin-left: 25px;
+}
+
+/* line 104, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__info_top .info_top_link:first-child {
+  margin-left: 0;
+}
+
+/* line 108, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.nav__info_top .info_top_link:hover {
+  color: #721e1e;
+}
+
+/* line 114, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+form {
+  display: flex;
+  width: 400px;
+}
+
+/* line 118, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+form .form__input {
+  width: 65%;
+  height: 45px;
+  border: 1px solid black;
+}
+
+/* line 124, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+form .form__button {
+  margin-left: 10px;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  transition: all 0.5s;
+}
+
+/* line 131, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+form .form__button:hover {
+  background: #a4acb0;
+}
+
+/* line 139, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover {
+  display: none;
+  position: fixed;
+  top: 140px;
+  left: 0;
+  width: 100%;
+  box-sizing: content-box;
+  padding: 65px 0;
+  background: #a4acb0;
+  z-index: 140;
+}
+
+/* line 151, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.active {
+  display: block;
+}
+
+/* line 155, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.close__button {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+}
+
+/* line 160, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.close__button:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+}
+
+/* line 166, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+/* line 173, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_item {
+  position: relative;
+  width: 12.5%;
+  height: 240px;
+  text-align: center;
+}
+
+/* line 179, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_item:hover {
+  transition: transform 0.5s linear;
+  overflow: hidden;
+}
+
+/* line 184, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_item h6 {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  margin: 0;
+  padding: 7px 0;
+  font-size: 16px;
+  background: #a4acb0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 200, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_item:nth-child(even) h6 {
+  background: #a4acb0;
+}
+
+/* line 204, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.navHover_item:hover h6 {
+  transition: bottom 0.5s linear;
+  bottom: 87%;
+  background: #c21633;
+}
+
+/* line 210, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_1 {
+  background: url("../img/navHover/1.png") center;
+  background-size: cover;
+}
+
+/* line 215, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_2 {
+  background: url("../img/navHover/2.png") center;
+  background-size: cover;
+}
+
+/* line 220, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_3 {
+  background: url("../img/navHover/3.png") center;
+  background-size: cover;
+}
+
+/* line 225, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_4 {
+  background: url("../img/navHover/4.png") center;
+  background-size: cover;
+}
+
+/* line 230, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_5 {
+  background: url("../img/navHover/5.png") center;
+  background-size: cover;
+}
+
+/* line 235, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_6 {
+  background: url("../img/navHover/6.png") center;
+  background-size: cover;
+}
+
+/* line 240, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_7 {
+  background: url("../img/navHover/7.png") center;
+  background-size: cover;
+}
+
+/* line 245, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.li_8 {
+  background: url("../img/navHover/8.png") center;
+  background-size: cover;
+}
+
+/* line 250, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.item__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 257, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+.item__link:hover {
+  cursor: pointer;
+  color: #c21633;
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1700px) {
+  /* line 265, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_item h6 {
+    font-size: 14px;
+  }
+  /* line 269, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__img {
+    width: 20%;
+  }
+  /* line 273, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1399px) {
+  /* line 279, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__img {
+    width: 20%;
+  }
+  /* line 283, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav {
+    width: 75%;
+  }
+  /* line 287, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav_info {
+    width: 35%;
+  }
+  /* line 291, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__img_logo {
+    width: 163px;
+    height: 170px;
+  }
+  /* line 296, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .form__input {
+    height: 45px;
+  }
+  /* line 300, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .nav__link {
+    padding: 61px 20px !important;
+    font-size: 15px !important;
+    line-height: 140px !important;
+  }
+  /* line 306, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .info_top_link {
+    font-size: 12px !important;
+  }
+  /* line 310, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__scroll .nav__link {
+    padding: 41px 22px !important;
+    line-height: 100px !important;
+  }
+  /* line 315, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover {
+    top: 140px;
+    padding-top: 40px;
+    padding-bottom: 55px;
+  }
+  /* line 321, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_ul {
+    flex-wrap: wrap;
+  }
+  /* line 325, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_item {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 332, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__img {
+    display: none;
+  }
+  /* line 336, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav_info {
+    display: none;
+  }
+  /* line 340, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav {
+    width: 100%;
+    display: block;
+  }
+  /* line 345, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__nav_link {
+    width: auto;
+    margin-right: 0;
+    text-align: center;
+  }
+  /* line 351, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .nav__link {
+    padding: 58px 22px;
+  }
+  /* line 355, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .header__scroll .nav__link {
+    padding: 40px 24px;
+  }
+  /* line 359, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_ul {
+    flex-wrap: wrap;
+  }
+  /* line 363, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_item {
+    width: 33%;
+    height: 170px;
+  }
+  /* line 368, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover {
+    padding-top: 20px;
+    overflow-y: scroll;
+  }
+  /* line 373, C:/Users/admin/Desktop/LibroMeble/scss/header.scss */
+  .navHover_item:hover h6 {
+    bottom: 70%;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

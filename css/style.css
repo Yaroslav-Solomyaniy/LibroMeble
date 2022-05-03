@@ -1,0 +1,453 @@
+/* line 4, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slider {
+  margin-top: 140px;
+  padding-right: 10px;
+  width: 100%;
+  position: relative;
+}
+
+/* line 11, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slider__img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 16, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slick-dots {
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  top: 90%;
+  left: 80%;
+}
+
+/* line 24, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slick-dots li {
+  margin: 0 5px;
+}
+
+/* line 28, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slick-dots button {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border: 4px solid #a4acb0;
+  font-size: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+/* line 39, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slick-dots button:focus {
+  outline: 0;
+}
+
+/* line 43, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.slick-dots .slick-active button {
+  border: 4px solid #c21633;
+}
+
+/* line 50, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper {
+  padding-top: 15px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 20px;
+}
+
+/* line 59, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 64, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item_1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+/* line 69, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item_6 {
+  grid-column: 3/5;
+}
+
+/* line 73, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 77, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item:hover .wrapper__img {
+  transition: all 0.5s linear;
+  transform: scale(1.03);
+}
+
+/* line 82, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item:hover .line_1,
+.wrapper__item:hover .line_3,
+.wrapper__item:hover .line_5,
+.wrapper__item:hover .line_7 {
+  width: 50%;
+}
+
+/* line 89, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item:hover .line_2,
+.wrapper__item:hover .line_4,
+.wrapper__item:hover .line_6,
+.wrapper__item:hover .line_8 {
+  height: 50%;
+}
+
+/* line 96, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item:hover .wrapper__progress {
+  transition: all 0.5s linear;
+  transform: translateX(130px);
+}
+
+/* line 103, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__line {
+  background: #fff;
+  z-index: 22;
+}
+
+/* line 108, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_1 {
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 117, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_2 {
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 126, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_3 {
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 135, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_4 {
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 144, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_5 {
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 153, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_6 {
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 162, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_7 {
+  width: 50px;
+  height: 1px;
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 171, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.line_8 {
+  width: 1px;
+  height: 50px;
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  transition: all 0.5s linear;
+}
+
+/* line 181, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__info {
+  width: 300px;
+  height: 50px;
+  background: #a4acb0;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  z-index: 25;
+}
+
+/* line 192, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__info h2 {
+  padding-left: 25px;
+  align-self: center;
+  font-weight: 600;
+  line-height: 10px;
+  color: #fff;
+}
+
+/* line 201, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__progress {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+  width: 150px;
+  height: 7px;
+  background: #c21633;
+  z-index: 26;
+  transition: all 0.5s linear;
+}
+
+/* line 212, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__img {
+  transition: all 0.5s linear;
+  align-self: center;
+}
+
+/* line 217, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item_9 {
+  background: url("../img/main/book.jpg") center center;
+  object-fit: cover;
+  text-align: center;
+}
+
+/* line 223, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+/* line 229, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_title b {
+  font-weight: 900;
+}
+
+/* line 234, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_text {
+  padding: 25px;
+  text-align: justify;
+  letter-spacing: 1.1px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+/* line 242, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 25px 55px;
+  border: 1px solid #a4acb0;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+/* line 251, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_link:hover {
+  background: #a4acb0;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 257, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_9_link:active, .item_9_link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 265, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.wrapper__item_10 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/* line 271, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__video {
+  z-index: 55;
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background: #a4acb0;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.3s linear 1s;
+}
+
+/* line 282, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__video:hover .red_bg {
+  left: 0px;
+}
+
+/* line 286, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__video .red_bg {
+  transition: all 0.9s linear;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 100%;
+  background: #c21633;
+}
+
+/* line 297, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__video .item__video_img {
+  width: 70px;
+  height: 70px;
+  margin: auto 15px;
+  z-index: 59;
+}
+
+/* line 304, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__video .item__video_text {
+  margin: auto 0;
+}
+
+/* line 309, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item_link {
+  z-index: 950;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* line 320, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__info {
+  width: 100%;
+  height: 50%;
+  z-index: 55;
+  position: relative;
+  background: url("../img/main/fura.jpg") center;
+  transition: all 0.9s linear;
+}
+
+/* line 328, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__info:hover {
+  transform: scale(1.08);
+}
+
+/* line 332, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+.item__info .item__info_text {
+  text-align: left;
+  font-weight: 600;
+  padding-left: 45px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1400px) {
+  /* line 343, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  /* line 348, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /* line 353, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_6 {
+    grid-column: 1/3;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 991px) {
+  /* line 359, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  /* line 364, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /* line 369, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_6 {
+    grid-column: 1/3;
+  }
+  /* line 373, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .item_9_text {
+    padding: 15px 20px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 382, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .slick-dots {
+    top: 60%;
+    left: 60%;
+  }
+  /* line 387, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  /* line 392, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  /* line 397, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__item_6 {
+    grid-column: 1/3;
+  }
+  /* line 402, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .wrapper__info h2 {
+    padding-left: 50px;
+  }
+  /* line 407, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .item_9_title {
+    font-size: 25px;
+  }
+  /* line 411, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .item_9_text {
+    padding: 5px 10px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  /* line 418, C:/Users/admin/Desktop/LibroMeble/scss/style.scss */
+  .item_text {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

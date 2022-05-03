@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import url(\"https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap\");\r\n@import \"variables.scss\";\r\n\r\nbody {\r\n  font-family: \"Roboto\", \"sans-serif\";\r\n  font-weight: 900;\r\n  text-transform: uppercase;\r\n  font-size: 16px;\r\n  margin: 0;\r\n  padding: 0;\r\n  transition: all 0.5s linear;\r\n  min-width: 600px;\r\n}\r\n\r\nfieldset {\r\n  border: none;\r\n}\r\n\r\n.item_text {\r\n  text-align: center;\r\n  font-size: 20px;\r\n  color: white;\r\n  letter-spacing: $LetterSpassing;\r\n  word-spacing: $WordSpassing;\r\n  line-height: 40px;\r\n  font-weight: 400;\r\n  z-index: 65;\r\n\r\n  b {\r\n    font-weight: 900;\r\n    font-size: 2em;\r\n  }\r\n}",
+		"$LetterSpassing: 1.25px !global;\r\n$WordSpassing: 1.25px !global;\r\n$colorRed: #c21633 !global;\r\n$colorWhite:#fff !global;\r\n$colorGrey:#a4acb0 !global;\r\n$colorBlack:black !global;"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,qJAAI;;AAGZ,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,sBAAsB;EACnC,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,SAAS;EACzB,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,eAAe;EAC3B,SAAS,EAAE,KAAK;CACjB;;;AAED,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,IAAI;CACb;;;AAED,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,cAAc,ECtBC,MAAM;EDuBrB,YAAY,ECtBC,MAAM;EDuBnB,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,EAAE;CAMZ;;;AAdD,AAUE,UAVQ,CAUR,CAAC,CAAC;EACA,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,GAAG;CACf"
+}

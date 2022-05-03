@@ -1,0 +1,107 @@
+/* line 4, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+footer {
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* line 11, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* line 19, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item {
+  padding: 0 10px;
+  width: 25%;
+}
+
+/* line 23, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item .footer__item_title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.3px;
+  line-height: 0;
+}
+
+/* line 31, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item .links {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 36, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item ul {
+  list-style-type: square;
+}
+
+/* line 39, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+/* line 46, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.footer__item ul li a:hover, .footer__item ul li a:active, .footer__item ul li a:focus {
+  transition: all 0.5s linear;
+  color: #c21633;
+  text-decoration: underline;
+}
+
+/* line 57, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+.line_two {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* line 62, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+hr {
+  margin: 0;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1400px) {
+  /* line 67, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  .footer__item_title {
+    font-size: 20px !important;
+    letter-spacing: normal !important;
+  }
+  /* line 72, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  ul li a {
+    line-height: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 991px) {
+  /* line 80, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  .footer__item .footer__item_title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 86, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+  /* line 90, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  .footer__item {
+    width: 44%;
+  }
+  /* line 94, C:/Users/admin/Desktop/LibroMeble/scss/footer.scss */
+  .footer__item_title {
+    font-size: 18px !important;
+    letter-spacing: normal !important;
+    line-height: normal;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

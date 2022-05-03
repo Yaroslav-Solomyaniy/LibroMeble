@@ -1,0 +1,367 @@
+/* line 3, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item {
+  padding-top: 140px;
+}
+
+/* line 7, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item__inner {
+  width: 99%;
+  display: flex;
+}
+
+/* line 12, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.slider {
+  width: 55%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 18, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.slider .slider_img {
+  width: 100%;
+}
+
+/* line 23, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item__info {
+  width: 45%;
+  margin-left: 50px;
+}
+
+/* line 27, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item__info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* line 31, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item__info ul li {
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+/* line 40, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.info__title {
+  color: #c21633;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+/* line 49, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.info_two_title {
+  color: #a4acb0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* line 57, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge__item {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+/* line 64, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge__item :nth-child(1) {
+  margin: 0;
+}
+
+/* line 68, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge__item:hover .edge__desc,
+.edge__item:focus .edge__desc {
+  display: block;
+}
+
+/* line 73, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge__item:hover .edge__img {
+  transition: all 0.5s ease-in-out;
+  transform: scale(0.8);
+}
+
+/* line 79, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge__desc {
+  display: none;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  padding: 15px;
+  margin: auto auto;
+  top: -110px;
+  left: -80px;
+  background: #c21633;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* line 95, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.edge_decoration {
+  width: 20px;
+  height: 20px;
+  background: #c21633;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: -10px;
+  left: 95px;
+}
+
+/* line 105, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.info__title_cost {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* line 112, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.cost__link {
+  color: #c21633;
+  text-decoration: none;
+}
+
+/* line 116, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.cost__link:hover, .cost__link:active, .cost__link:focus {
+  text-decoration: none;
+}
+
+/* line 124, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper {
+  padding-top: 15px;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+/* line 133, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__item {
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 137, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__item:hover .wrapper__img {
+  transition: all 0.5s linear;
+  transform: scale(1.1);
+}
+
+/* line 142, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__item:hover .wrapper__progress {
+  transition: all 0.5s linear;
+  transform: translateX(130px);
+}
+
+/* line 148, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__info {
+  width: 300px;
+  height: 50px;
+  background: #a4acb0;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  z-index: 25;
+}
+
+/* line 159, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__info h2 {
+  padding-left: 25px;
+  align-self: center;
+  font-weight: 100;
+  line-height: 10px;
+  color: #fff;
+}
+
+/* line 168, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__progress {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+  width: 150px;
+  height: 7px;
+  background: #c21633;
+  z-index: 26;
+  transition: all 0.5s linear;
+}
+
+/* line 179, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__img {
+  transition: all 0.5s linear;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 186, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__item_2 {
+  background: url("../img/info/book.jpg") center center;
+  object-fit: cover;
+  text-align: center;
+}
+
+/* line 192, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_2_title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 100;
+  color: #a4acb0;
+}
+
+/* line 199, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_2_title b {
+  font-weight: 900;
+}
+
+/* line 204, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_2_text {
+  padding: 25px;
+  text-align: justify;
+  letter-spacing: 1.1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  color: #a4acb0;
+}
+
+/* line 213, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 25px 55px;
+  border: 1px solid #a4acb0;
+  background: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+}
+
+/* line 223, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_link:hover {
+  background: white;
+  text-decoration: none;
+}
+
+/* line 228, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_link:active, .item_link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 235, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.wrapper__item_3 {
+  background: url("../img/info/salony-sprzedazy.jpg") center center;
+  object-fit: cover;
+  text-align: center;
+}
+
+/* line 241, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_3_title {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Roboto', 'serif';
+  color: #fff;
+}
+
+/* line 249, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_3_title b {
+  font-weight: 900;
+}
+
+/* line 254, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+.item_3_text {
+  padding: 25px;
+  text-align: justify;
+  letter-spacing: 1.1px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1400px) {
+  /* line 266, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* line 270, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item_3_text,
+  .item_2_text {
+    letter-spacing: normal;
+    line-height: normal;
+  }
+}
+
+@media screen and (max-width: 1399px) and (min-width: 991px) {
+  /* line 278, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* line 282, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item_3_text,
+  .item_2_text {
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  /* line 290, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item_3_title,
+  .item_2_title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 298, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  /* line 302, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item__inner {
+    flex-direction: column;
+  }
+  /* line 306, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .slider {
+    width: 100%;
+  }
+  /* line 310, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item__info {
+    width: 100%;
+  }
+  /* line 314, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .wrapper__item {
+    height: 300px;
+  }
+  /* line 318, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .wrapper__item_1 {
+    height: auto;
+  }
+  /* line 322, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item_3_text,
+  .item_2_text {
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  /* line 330, C:/Users/admin/Desktop/LibroMeble/scss/product_info.scss */
+  .item_3_title,
+  .item_2_title {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+/*# sourceMappingURL=product_info.css.map */
